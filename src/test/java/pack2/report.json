@@ -6,7 +6,539 @@
         "before": [
           {
             "result": {
-              "duration": 2903459375,
+              "duration": 3546882093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To test the submit button1",
+        "description": "",
+        "id": "to-test-the-add-customer-functionlaity;to-test-the-submit-button1",
+        "after": [
+          {
+            "result": {
+              "duration": 798021292,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5151233151,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in telecom home pag",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_telecom_home_pag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4893163184,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_navigates_to_add_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2643565104,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user fill in the form details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_form_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "testf",
+                  "testl",
+                  "test4@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testxf",
+                  "testxl",
+                  "test1@gmail.com",
+                  "chennai",
+                  "223456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testyf",
+                  "testyl",
+                  "test2@gmail.com",
+                  "chennai",
+                  "323456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testzf",
+                  "testzl",
+                  "test3@gmail.com",
+                  "chennai",
+                  "423456789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2648441046,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user submits the form",
+            "match": {
+              "location": "AddCustomerSteps.the_user_submits_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6062928,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The customer should see the customer id generated.",
+            "match": {
+              "location": "AccessSteps.the_customer_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@xyz"
+          },
+          {
+            "name": "@addcust"
+          },
+          {
+            "name": "@smoke1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2542499377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To test the submit button2",
+        "description": "",
+        "id": "to-test-the-add-customer-functionlaity;to-test-the-submit-button2",
+        "after": [
+          {
+            "result": {
+              "duration": 2974181995,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5258159566,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user is in telecom home pag",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_telecom_home_pag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3439840051,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_navigates_to_add_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705655291,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user fill in the form details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_form_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "testf",
+                  "testl",
+                  "test4@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testxf",
+                  "testxl",
+                  "test1@gmail.com",
+                  "chennai",
+                  "223456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testyf",
+                  "testyl",
+                  "test2@gmail.com",
+                  "chennai",
+                  "323456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testzf",
+                  "testzl",
+                  "test3@gmail.com",
+                  "chennai",
+                  "423456789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1947115138,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user submits the form",
+            "match": {
+              "location": "AddCustomerSteps.the_user_submits_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 627200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The customer should see the customer id generated.",
+            "match": {
+              "location": "AccessSteps.the_customer_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@xyz"
+          },
+          {
+            "name": "@addcust"
+          },
+          {
+            "name": "@smoke2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2223224130,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "To test the submit button3",
+        "description": "",
+        "id": "to-test-the-add-customer-functionlaity;to-test-the-submit-button3",
+        "after": [
+          {
+            "result": {
+              "duration": 2924946837,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4331097744,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user is in telecom home pag",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_telecom_home_pag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3064293919,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_navigates_to_add_customer_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723577836,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user fill in the form details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_form_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "testf",
+                  "testl",
+                  "test4@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testxf",
+                  "testxl",
+                  "test1@gmail.com",
+                  "chennai",
+                  "223456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testyf",
+                  "testyl",
+                  "test2@gmail.com",
+                  "chennai",
+                  "323456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testzf",
+                  "testzl",
+                  "test3@gmail.com",
+                  "chennai",
+                  "423456789"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1938549813,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "The user submits the form",
+            "match": {
+              "location": "AddCustomerSteps.the_user_submits_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471039,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "The customer should see the customer id generated.",
+            "match": {
+              "location": "AccessSteps.the_customer_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sprint1"
+          },
+          {
+            "name": "@us1234"
+          },
+          {
+            "name": "@xyz"
+          },
+          {
+            "name": "@addcust"
+          },
+          {
+            "name": "@smoke3"
+          },
+          {
+            "name": "@smoke1"
+          }
+        ]
+      }
+    ],
+    "name": "To test the add customer functionlaity",
+    "description": "",
+    "id": "to-test-the-add-customer-functionlaity",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@sprint1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 13
+        }
+      },
+      {
+        "name": "@us1234",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 22
+        }
+      },
+      {
+        "name": "@xyz",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 30
+        }
+      },
+      {
+        "name": "@addcust",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 35
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2371425390,
               "status": "passed"
             },
             "match": {
@@ -21,7 +553,7 @@
         "after": [
           {
             "result": {
-              "duration": 651022621,
+              "duration": 3016697586,
               "status": "passed"
             },
             "match": {
@@ -34,7 +566,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5239004198,
+              "duration": 6074031723,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +578,7 @@
           },
           {
             "result": {
-              "duration": 421594064,
+              "duration": 645397210,
               "status": "passed"
             },
             "line": 8,
@@ -88,7 +620,7 @@
           },
           {
             "result": {
-              "duration": 2477225237,
+              "duration": 1490928221,
               "status": "passed"
             },
             "line": 9,
@@ -100,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 53509128,
+              "duration": 86846646,
               "status": "passed"
             },
             "line": 10,
@@ -132,6 +664,141 @@
         "type": "Tag",
         "location": {
           "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2415584072,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.x()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Add Traffi details and get message",
+        "description": "",
+        "id": "title-of-your-feature;add-traffi-details-and-get-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 817569863,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.y()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6203625213,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user is in add tariff plan page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_tariff_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 593957040,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User type the form details\"200\",\"300\",\"400\",\"500\",\"609\",\"700\",\"800\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"609\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"700\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"800\"",
+                  "offset": 62
+                }
+              ],
+              "location": "AddTariffPlanSteps.user_type_the_form_details(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1383111780,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the sumit button",
+            "match": {
+              "location": "AddTariffPlanSteps.click_the_sumit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70161860,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "AddTariffPlanSteps.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Testsprint3.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
           "column": 1
         }
       }

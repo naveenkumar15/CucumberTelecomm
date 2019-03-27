@@ -10,7 +10,7 @@ public class HomePageSteps {
 	@Given("The user is in add tariff plan page")
 	public void the_user_is_in_add_tariff_plan_page() {
 
-		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gomathi\\eclipse-workspace\\Baseclass\\Driver\\chromedriver.exe");
 		Hook.driver = new ChromeDriver();
 		Hook.driver.get("http://demo.guru99.com/telecom/addtariffplans.php");
 	}
